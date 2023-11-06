@@ -1,0 +1,74 @@
+﻿table, td, th {
+    border-color: red;
+    border-collapse: collapse;
+}
+.frmtbl{
+    color: #FFFEC7;
+    width: 80%;
+    height: 500px;
+    background-color: #558abb;
+}
+.frmtbl caption{
+    font-size: 30pt;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: #CC0F05;
+}
+
+.frmtbl thead{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 25pt;
+    text-shadow: #FFDA42 5px 5px 20px;
+
+}
+.frmtbl tbody{
+   text-align: center;
+   font-family: Impact, Charcoal, sans-serif;
+   font-size: 20pt;
+   text-shadow: 2px 0 2px white,
+				0 2px 2px white,
+				-2px 0 2px white,
+				0 -2px 2px white;
+   color: gray;
+   background-image: url(bg.jpg);
+   background-size: 100%;
+}
+.frmtbl tfoot{
+   font-family: "Lucida Console", Monaco, monospace;
+   font-size: 15pt;
+   vertical-align: bottom;
+   text-align: center;
+
+}
+.div1{
+    padding-left: 50px;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(img.png);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 12pt;
+}
+div#layer{
+    background-color: #EDC912;
+    border: 5px dashed #007A35;
+    padding: 25px;
+    color: #5654F8;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    clip: rect(40px, auto, auto, 40px);
+}
+div#img{
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+html, body {
+   scrollbar-3dlight-color: red;
+   scrollbar-arrow-color: yellow;
+   scrollbar-highlight-color: aqua;
+   scrollbar-face-color: green;
+   scrollbar-shadow-color: fuchsia;
+   scrollbar-darkshadow-color: blue;
+   scrollbar-track-color: maroon;
+}

@@ -1,0 +1,61 @@
+body{
+    color: #FFD89E;
+    font-size: 14pt;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+p{
+    letter-spacing: 5px;
+}
+.italic{
+    font-style: italic;
+    text-decoration: overline;
+}
+.yellow{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25pt;
+    text-indent: 50px;
+    text-decoration: dashed;
+    color: #EDEB92;
+}
+.rich{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #FCC00C;
+    line-height: 25pt;
+}
+.perenos{
+    white-space: nowrap;
+}
+.red{
+    color: #F00000;
+    text-transform: uppercase;
+}
+.new{
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 200%;
+    text-decoration: underline;
+    line-height: 2;
+}
+.class1{
+    font-family: "Times New Roman", Times, serif;
+    color: #8D27CC;
+    font-weight: lighter;
+    font-stretch: wider;
+
+}
+.class2{
+    display: inline;
+    text-align: justify;
+    text-indent: 20px;
+    vertical-align: sub;
+    word-spacing: 10px;
+}
+.class3{
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px #558ABB;
+}

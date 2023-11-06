@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Form Lab</title>
+  <style>
+    body{
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 18pt;
+        font-weight: bolder;
+        color: #6A7BED;
+    }
+
+  </style>
+</head>
+
+<body background="lab4.jpg">
+    <form method="get" name="form">
+      <table align="left">
+          <tr>
+              <td>Your name: </td>
+              <td><input type="text" maxlength="255" name="name"></td>
+          </tr>
+          <tr>
+              <td>Password</td>
+              <td><input maxlength="255" type="password" name="password"></td>
+          </tr>
+          <tr>
+              <td>Date of registration: </td>
+              <td>
+              <input type="text" name="day" maxlength="2">
+              <input type="month" name="month">
+              </td>
+          </tr>
+          <tr>
+              <td>Gender</td>
+              <td>Male<input type="radio" name="gender">
+              Female<input type="radio" name="gender">
+              Non-binary<input type="radio" name="gender"></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" name="recieve" checked="checked">I wanna recieve your news</td>
+          </tr>
+          <tr>
+              <td>How many emails you recieve per day?</td>
+              <td>1-2<input type="radio" name="mails">
+              5-10<input type="radio" name="mails">
+              More<input type="radio" name="mails"></td>
+          </tr>
+          <tr>
+              <td>Mark theme you are interested in</td>
+              <td><select multiple size="10" name="select">
+              <option>Coputer science</option>
+              <option>Gaming disign</option>
+              <option>Web-development</option>
+              <option>Copyrighting</option>
+              <option>Back-end</option>
+              <option>Project managing</option>
+              <option>Engineering</option>
+              <option>Administration</option>
+              <option>Human resourses</option>
+              <option>Testing</option>
+              </select></td>
+          </tr>
+          <tr>
+              <td>Feedback</td>
+              <td><textarea style="resize: none;" name="feedback"cols="30" rows="7"></textarea></td>
+          </tr>
+          <tr>
+              <td>Userpicture</td>
+              <td><input name="avatar" type="file"></td>
+          </tr>
+          <tr>
+              <td><input name="submit" type="submit"></td>
+              <td><input type="reset"></td>
+          </tr>
+      </table>
+      </form>
+</body>
+
+</html>
